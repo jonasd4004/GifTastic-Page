@@ -1,0 +1,28 @@
+#search {
+    float:right;
+}
+
+#add-musician {
+    background-color: green;
+    padding: 7px 5px 7px 5px;
+}
+
+label {
+    font-size: 24px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html { 
+  background:  url(https://media.giphy.com/media/4oMoIbIQrvCjm/giphy.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+h1{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3em;
+  margin: .2em .5em;
+  color: rgba(0,0,0, 0.3);
+  text-align: center;
+}
+body {
+    height: 100%;
+}

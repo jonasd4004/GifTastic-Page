@@ -5,6 +5,7 @@ $(document).ready(function () {
     renderButtons();
 
     $(document).on("click", ".musician", function () {
+        $("#gif-display").empty();
         var musician = $(this).attr("data-person");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             musician + "&api_key=H0dv1uvUBqsj4vHzwLWUyerqxsmp4DK1&limit=10";
